@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.hotelBT {
+  padding: 0 20px;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+
+}
+
+.ul_li li a {
+  float: right;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 18px 15px;
+  display: flex;
+  font-weight: bold;
+}
+/* .nav a{
+  position: fixed;
+} */
+
+
+
+.EnjoyYourStay {
+  background-image: url(./img/showcase.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+
+}
+
+
+.button {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 2px solid wheat;
+  cursor: pointer;
+  opacity: .8;
+  transition: .5s ease-in;
+  background-color: transparent;
+  color: white;
+}
+
+/* About Page */
+
+.button1 {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 2px solid wheat;
+  cursor: pointer;
+  opacity: .8;
+  transition: .5s ease-in;
+  background-color: transparent;
+  color: white;
+}
+
+
+.EnjoyYourStay1 {
+  height: 500px;
+}
+
+
+
+
+
+.OurHotel {
+  float: right;
+  width: 50%;
+  background-color: gray;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.OurHotel h1 {
+  color: rgb(210, 179, 132);
+}
+
+/* .left{
+  float: left;
+} */
+
+
+
+
+.img1 {
+  width: 50%;
+  float: left;
+}
+
+.otelIMG {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.OurHotel p {
+  margin: 30px 0px;
+}
+
+
+.AboutHotelBT {
+  height: 300px;
+  margin: 50px 0px 50px 300px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.headerText {
+  width: 50%;
+  float: left;
+}
+
+.headerText2 {
+  width: 50%;
+  float: right;
+
+}
+
+.img2 {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.All {
+  padding: 20px 0px;
+  z-index: 1;
+  background-color: black;
+  height: 10px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.picture {
+  float: left;
+  background-color: #ffffff;
+}
+
+.GreatLocation {
+  width: 33%;
+  background-color: #dedede;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.FreeMeais {
+  width: 33%;
+  background-color: rgb(205, 187, 99);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.FitnessRoom {
+  width: 33%;
+  background-color: #dedede;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px;
+}
